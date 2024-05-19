@@ -14,8 +14,8 @@ Realizar testes unitários e de Stress
 Colocar na nuvem com Servless
 
 #### Framework🥊
-Express
-Prisma ou type orm
+-Express,
+-Prisma ou type orm
 
 
 #### Será instalado TypeScript 🏋️‍♂️
