@@ -3,15 +3,15 @@ Objetivo é ter um relatório de anotações diarias do valor da pressão aferid
 medicamento
 
 ### Requistos não funcionais 📋
-Camada de Autenticação, \n
-Protejer contra Sql injection, \n
-Protejer contra XQS, \n
-Protejer contra CRSF,\n
-Criar uma forma do paciente ter o relátorio via xml, viabilizar download para o paciente, \n
-Função para filtrar por um determinado espaço de tempo, \n
-Função para filtrar por valores mais altos na pressão, \n
-Realizar testes unitários e de Stress, \n
-Colocar na nuvem com Servless, \n
+Camada de Autenticação, 
+Protejer contra Sql injection, 
+Protejer contra XQS, 
+Protejer contra CRSF,
+Criar uma forma do paciente ter o relátorio via xml, viabilizar download para o paciente, 
+Função para filtrar por um determinado espaço de tempo, 
+Função para filtrar por valores mais altos na pressão, 
+Realizar testes unitários e de Stress, 
+Colocar na nuvem com Servless, 
 
 #### Framework🥊
 -Express,
