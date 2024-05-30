@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "dev:watch": "tsx src/server.ts",
+    "dev": "tsx --env-file=.env src/server.ts",
+    "dev:watch": "tsx --env-file=.env src/server.ts",
     "dist": "tsup src",
     "dev:dist": "npm run dist"
   },
