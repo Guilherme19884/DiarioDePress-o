@@ -1,7 +1,20 @@
-import { User } from './user';
+
+export interface User {
+    id: number;
+    name: string;
+    email: string;
+    password: string;
+    isActive: boolean;
+    createDate: Date;
+    createHora: Date;
+    valuePresion: string;
+    physicalActivity: boolean;
+    smoker: boolean;
+    heartProblem: boolean;
+  }
 
 
-export class UserEntity {
+  export class UserEntity {
     private user: User;
 
     constructor(user: User) {
