@@ -1,9 +1,8 @@
 import express, { Request, Response } from "express"
+import createApp from "./app"
 
-const app = express()
+const app = createApp()
 const port = process.env.PORT
-
-app.use(express.json())
 
 app.listen(port, () => {
     console.log(`Servidor rodando hhtp://localhost:${port}`)
