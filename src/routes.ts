@@ -5,3 +5,5 @@ const router = Router()
 
 //Rotas para usuários
 router.get('/users', UsersController.getUsersController)
+
+export default router
