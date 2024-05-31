@@ -1,7 +1,7 @@
 import * as Http from "../utils/http-helper"
 import * as UserRepository from "../repositories/user-respositoy"
 
-export const getPlayerService =  async ()=> {
+export const getUsersService =  async ()=> {
 
     const data = await UserRepository.findAllUsers()
     let response = null
